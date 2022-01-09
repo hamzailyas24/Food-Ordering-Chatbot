@@ -1,0 +1,29 @@
+{
+  "name": "food-ordering-chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "nodemon index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzailyas24/Food-Ordering-Chatbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamzailyas24/Food-Ordering-Chatbot/issues"
+  },
+  "homepage": "https://github.com/hamzailyas24/Food-Ordering-Chatbot#readme",
+  "dependencies": {
+    "ask-sdk-core": "^2.11.0",
+    "ask-sdk-express-adapter": "^2.11.0",
+    "ask-sdk-model": "^1.37.1",
+    "axios": "^0.24.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.5",
+    "morgan": "^1.10.0"
+  }
+}
