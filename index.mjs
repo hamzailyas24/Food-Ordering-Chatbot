@@ -86,8 +86,8 @@ const adapter = new ExpressAdapter(skill, false, false);
 app.post('/api/v1/webhook-alexa', adapter.getRequestHandlers());
 
 app.use(express.json())
-app.get('/home', (req, res, next) => {
-  res.send("This is a Home");
+app.get('/', (req, res, next) => {
+  res.send("Welcome to Food Application");
 });
 
 app.listen(PORT, () => {
